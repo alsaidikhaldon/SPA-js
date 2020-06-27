@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function(){
             }else{
                 document.getElementById('sortByVoted').classList.remove('active')
             }
-            console.log(sortBy);
+            
             loadAllVidReq(sortBy)
           
            
